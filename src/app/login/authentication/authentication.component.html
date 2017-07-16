@@ -1,0 +1,7 @@
+<p>
+  Login component:  <br/>{{username.value}} - {{isLoggedIn}} - {{counter}} - {{connectionError}}<br/>
+  <input type="text" #username/><br/>
+  <input type="password" #password/><br/>
+  <button (click)="login(username.value, password.value)">Login</button><br/>
+  {{username.value}}/{{password.value}}
+</p>
